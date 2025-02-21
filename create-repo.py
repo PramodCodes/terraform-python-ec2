@@ -2,7 +2,8 @@ import requests
 import json
 
 # Configuration
-github_token = 'your-token'
+user_input = input("Enter your GitHub token: ")
+github_token = user_input
 organization_name = 'daws-76s'
 repo_name = 'terraform-python-ec2'
 description = 'This repo is to discuss about python usecases'
